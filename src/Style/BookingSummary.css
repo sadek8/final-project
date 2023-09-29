@@ -1,0 +1,33 @@
+.booking-summary-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .booking-summary-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-summary-container p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .booking-summary-container a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .booking-summary-container a:hover {
+    color: blue;
+  }
+  
+  .booking-summary-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .booking-summary-container button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }

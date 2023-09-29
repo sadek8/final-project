@@ -1,0 +1,43 @@
+.booking-confirmation {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .booking-confirmation h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .booking-confirmation .user {
+    font-weight: bold;
+  }
+  
+  .booking-confirmation .movie,
+  .booking-confirmation .date,
+  .booking-confirmation .selected-seats,
+  .booking-confirmation .total-price {
+    margin-bottom: 5px;
+  }
+  
+  .booking-confirmation .cancel-booking,
+  .booking-confirmation .book-another {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .booking-confirmation .cancel-booking {
+    background-color: #dc3545;
+  }
+  
+  .booking-confirmation .book-another {
+    background-color: #28a745;
+  }
